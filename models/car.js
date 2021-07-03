@@ -153,7 +153,7 @@ const carSchema = new mongoose.Schema({
         required: false
     },
     date: {
-        type: Date,
+        type: Number,
         required: false
     }
 })
