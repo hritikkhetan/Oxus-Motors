@@ -70,8 +70,8 @@ router.get('/advance-search/:company/:model/:trim/:year/:lprice/:hprice/:lmileag
         const hprice = req.params.hprice
         const lmileage = req.params.lmileage
         const hmileage = req.params.hmileage
-        const ldate = req.params.ldate
-        const hdate = req.params.hdate
+        var ldate = req.params.ldate
+        var hdate = req.params.hdate
         const ext_color = req.params.ext_color
         const int_color = req.params.int_color
         const ext_type = req.params.ext_type
